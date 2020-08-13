@@ -1,0 +1,28 @@
+// Customizations
+$primary: #2f3d6c;
+$grey: #d8d8d8;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+$font-family-base: 'Teko';
+$body-bg: $grey;
+
+$spacer: 1rem;
+
+$spacers: (
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+);
+
+$theme-colors: (
+  grey: $grey,
+);
+
+// All of bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import 'node_modules/bootstrap-vue/src/index.scss';

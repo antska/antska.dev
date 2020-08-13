@@ -1,0 +1,25 @@
+{
+  "name": "Antonis Skandalis",
+  "social": [
+    {
+      "icon": "github",
+      "link": "https://github.com/antska"
+    },
+    {
+      "link": "https://linkedin.com/in/antskandalis/",
+      "icon": "linkedin-in"
+    },
+    {
+      "link": "https://twitter.com/ant_skandalis",
+      "icon": "twitter"
+    },
+    {
+      "link": "https://www.instagram.com/ant.skandalis",
+      "icon": "instagram"
+    },
+    {
+      "link": "https://facebook.com/ant.skandalis/",
+      "icon": "facebook"
+    }
+  ]
+}

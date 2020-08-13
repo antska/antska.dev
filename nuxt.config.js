@@ -139,7 +139,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
+    ['@nuxtjs/sitemap', { hostname: 'https://www.antska.xyz' }],
     '@nuxtjs/google-analytics',
     '@nuxtjs/robots',
     ['bootstrap-vue/nuxt', { css: false, bvCSS: false }],

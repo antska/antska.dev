@@ -170,9 +170,6 @@ export default {
       },
     },
   },
-  render: {
-    csp: true,
-  },
   webfontloader: {
     google: {
       families: ['Teko:wght@300;400;500;600&display=swap'],

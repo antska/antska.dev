@@ -17,6 +17,26 @@ export default {
     title: process.env.npm_package_title || '',
     meta: [
       { charset: 'utf-8' },
+      { lang: 'en' },
+      {
+        keywords: [
+          'front',
+          'frontend',
+          'developer',
+          'fronted developer',
+          'website design',
+          'website development',
+          'software engineer',
+          'frontend engineer',
+          'paros',
+          'javascript',
+          'typescript',
+          'reactjs',
+          'vuejs',
+          'nuxtjs',
+          'gatsbyjs',
+        ],
+      },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
@@ -91,6 +111,13 @@ export default {
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     'nuxt-webfontloader',
+    'nuxt-purgecss',
+    [
+      '@aceforth/nuxt-netlify',
+      {
+        mergeSecurityHeaders: true,
+      },
+    ],
     [
       '@nuxtjs/fontawesome',
       {
@@ -114,6 +141,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     '@nuxtjs/google-analytics',
+    '@nuxtjs/robots',
     ['bootstrap-vue/nuxt', { css: false, bvCSS: false }],
     [
       'nuxt-mq',
@@ -141,6 +169,9 @@ export default {
         autoprefixer: {},
       },
     },
+  },
+  render: {
+    csp: true,
   },
   webfontloader: {
     google: {

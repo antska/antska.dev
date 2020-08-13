@@ -23,18 +23,19 @@
     }
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@nuxt/typescript-runtime": "^1.0.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "nuxt": "^2.14.0",
-    "nuxt-mq": "^2.0.1",
-    "nuxt-webfontloader": "^1.1.0"
+    "nuxt-mq": "^2.0.1"
   },
   "devDependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@aceforth/nuxt-netlify": "^1.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@nuxt/types": "^2.14.0",
@@ -53,6 +54,8 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "node-sass": "^4.14.1",
+    "nuxt-purgecss": "^1.0.0",
+    "nuxt-webfontloader": "^1.1.0",
     "precss": "^4.0.0",
     "prettier": "^2.0.5",
     "sass-loader": "^9.0.3",

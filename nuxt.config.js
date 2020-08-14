@@ -144,6 +144,7 @@ export default {
     '@nuxtjs/pwa',
     ['@nuxtjs/sitemap', { hostname: 'https://www.antska.xyz' }],
     '@nuxtjs/google-analytics',
+    '@nuxtjs/style-resources',
     '@nuxtjs/robots',
     ['bootstrap-vue/nuxt', { css: false, bvCSS: false }],
     [

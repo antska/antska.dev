@@ -114,7 +114,6 @@ export default {
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     'nuxt-webfontloader',
-    'nuxt-purgecss',
     [
       '@aceforth/nuxt-netlify',
       {

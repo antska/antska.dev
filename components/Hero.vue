@@ -119,7 +119,7 @@ export default {
   }
 
   &.sm {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   &.md {
@@ -128,18 +128,7 @@ export default {
 }
 
 .intro {
-  left: -106px;
-
-  &.xs {
-    left: -28px;
-  }
-
-  &.sm {
-    left: -63px;
-  }
-
-  &.md {
-    left: -106px;
-  }
+  left: 50%;
+  transform: translateX(-50%);
 }
 </style>

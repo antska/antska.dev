@@ -1,14 +1,14 @@
 {
   "name": "antska.xyz",
   "title": "Antonis Skandalis | Frontend Software Developer",
-  "description": "My personal website",
+  "description": "Frontend Software Developer with experience in React, VueJs and Javascript in general",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style"
@@ -24,10 +24,10 @@
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
-    "bootstrap": "^4.5.0",
-    "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.14.0",
-    "nuxt-mq": "^2.0.1"
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "nuxt": "^2.15.3",
+    "nuxt-mq": "^2.0.2"
   },
   "devDependencies": {
     "@aceforth/nuxt-netlify": "^1.1.0",
@@ -54,11 +54,11 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "nuxt-webfontloader": "^1.1.0",
     "precss": "^4.0.0",
     "prettier": "^2.0.5",
-    "sass-loader": "^9.0.3",
+    "sass-loader": "^10.1.1",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0"

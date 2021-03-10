@@ -42,7 +42,7 @@
           rel="noopener noreferrer"
           class="text-primary h2 mr-2"
         >
-          <FontAwesomeIcon :icon="['fab', social.icon]" />
+          <FontAwesomeIcon :icon="[social.prefix, social.icon]" />
         </a>
       </div>
     </b-card>

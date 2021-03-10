@@ -2,22 +2,32 @@
   "name": "Antonis Skandalis",
   "social": [
     {
+      "prefix": "fa",
+      "icon": "envelope",
+      "link": "mailto:ant.skandalis@gmail.com"
+    },
+    {
+      "prefix": "fab",
       "icon": "github",
       "link": "https://github.com/antska"
     },
     {
+      "prefix": "fab",
       "link": "https://linkedin.com/in/antskandalis/",
       "icon": "linkedin-in"
     },
     {
+      "prefix": "fab",
       "link": "https://twitter.com/ant_skandalis",
       "icon": "twitter"
     },
     {
+      "prefix": "fab",
       "link": "https://www.instagram.com/ant.skandalis",
       "icon": "instagram"
     },
     {
+      "prefix": "fab",
       "link": "https://facebook.com/ant.skandalis/",
       "icon": "facebook"
     }

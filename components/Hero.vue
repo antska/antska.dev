@@ -84,7 +84,7 @@ export default {
 
 .card {
   min-height: 550px;
-  width: 420px;
+  width: 430px;
   border: 4px solid;
 
   &.xs {

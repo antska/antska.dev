@@ -12,7 +12,7 @@
         <h1 class="name pt-2 px-2" :class="$mq">{{ data.name }}</h1>
       </div>
       <b-card-text :class="$mq === 'xs' ? 'mt-10' : 'mt-12'">
-        &lt;<span
+        <span
           v-b-hover="handleHoverTitle"
           :class="isHoveredTitle ? 'gradient-hover' : ''"
           >Frontend Engineer</span
@@ -22,15 +22,15 @@
         <span
           ><a
             v-b-hover="handleHoverCompany"
-            href="https://www.omilia.com"
+            href="https://www.theblueground.com"
             target="_blank"
             rel="noopener noreferrer"
             class="text-secondary"
             :class="isHoveredCompany ? 'gradient-hover text-primary' : ''"
-            >Omilia ltd</a
-          ></span
-        >
-        /&gt;
+            >Blueground ltd</a
+          >
+          />
+        </span>
       </b-card-text>
 
       <div class="text-center">
@@ -53,7 +53,7 @@
 import data from '~/static/data.json';
 
 export default {
-  name: 'Hero',
+  name: 'HeroComponent',
   data() {
     return {
       data,
@@ -81,9 +81,10 @@ export default {
   align-items: center;
   text-align: center;
 }
+
 .card {
   min-height: 550px;
-  width: 400px;
+  width: 420px;
   border: 4px solid;
 
   &.xs {

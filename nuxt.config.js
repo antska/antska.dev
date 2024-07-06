@@ -189,7 +189,7 @@ export default {
     height: '5px',
   },
   googleAnalytics: {
-    id: 'UA-87594841-8',
+    id: process.env.GOOGLE_ANALYTICS_ID,
     dev: false,
   },
 };

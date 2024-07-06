@@ -1,7 +1,7 @@
-# antska.xyz
+# antska.dev
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a12b6ad7-c21a-4b66-8615-fec0f06f3d1c/deploy-status)](https://app.netlify.com/sites/gracious-curran-8545fc/deploys)
 
-My personal website built with NuxtJS (VueJS + NextJS)
+My personal website built in NuxtJS
 
 ## Build Setup
 
